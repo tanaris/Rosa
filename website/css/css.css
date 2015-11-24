@@ -1,0 +1,103 @@
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow:hidden;
+    background-image: url(../images/zwartevilt.png);
+    background-repeat: repeat repeat;
+}
+
+
+/* navbar elementen */
+.navbar-custom {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand,
+.navbar-default .dropdown-menu>li>a {
+    color: #fff;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.dropdown-menu li a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-brand:focus {
+    color: #00CCC8;
+    transition:0.5s;
+    background-color: transparent;
+    background-image: none;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    color: #00CCC8;
+    background-color: transparent;
+    background-image: none;
+    text-shadow: none;
+}
+
+
+/* introduction */
+#Introduction {
+    height: 100vh;
+    position: relative;
+}
+
+#Introduction img{
+    width: 200px;
+    display: block;
+    margin:0 auto;
+}
+
+#Introduction h1
+{
+    text-align: center;
+    color: #00CCC8;
+}
+
+.VerticalAlign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Events */
+
+/* Instructors */
+#Instructors
+{
+    height: 100vh;
+    position:relative;
+    
+}
+
+.InstructorTitel
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #00CCC8;
+}
+
+
+
+.InstructorBox h2
+{  
+    color: #fff; 
+}
+
+.InstructorFlex
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}

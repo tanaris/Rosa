@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Special thanks to: (credits)
+        www.subtlepatterns.com for providing background patterns!
+        www.getbootstrap.com for the bootstrap framework!
+        Wikipedia commons media
+        
+    Educational:
+        aria-hidden: negeer elementen voor "unusual users"(spraak sint..)
+        smooth.js: (www.css-tricks.com)  kijk voor a href="#" elementenn, en als er geen waarde na #staat, 
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrapfiles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrapfiles/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/css.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrapfiles/js/bootstrap.min.js"></script>
+    <script src="js/smooth.js"></script>
+
+    <title>Accademia La Rosa Blanca</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-custom navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!--
+                    Maak burger-toggle + brand   
+                -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavbarTarget" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Accademia La Rosa Blanca</a>
+                </div>
+                <!-- 
+                    Navbar elementen   
+                -->
+                <div class="collapse navbar-collapse" id="NavbarTarget">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#Introduction"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Introduction</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Events</a></li>
+                        <li><a href="#Instructors"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Instructors</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Contact Information</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true" ></span> Media</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Language <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Italiano</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="index.html">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+            </div>
+        </nav>
+    </header>
+
+    <article id="Introduction">
+        <section class="container VerticalAlign">
+            <img src="images/Red_rose_02.svg" onerror="this.src='images/Red_rose_02.png'">              
+            <h1>Accademia La Rosa Blanca</h1>
+            <p>Accademia La Rosa Blanca is a dancing academy that specializes in cuban dancing techniques but is not limited to this technique. The academy is run by 2 instructors that have over 15 years of experience,</p>
+        </section>
+    </article>
+    
+    <article id="Events">
+        <div class="container">
+            
+        </div>
+    </article>
+    
+    <article id="Instructors">
+        <div class="container-fluid ">
+            <h2 class="InstructorTitel">The instructors</h2>
+            <div class="InstructorFlex">
+                <section class="InstructorBox">
+                    <img src="http://lorempixel.com/250/250" alt="">
+                    <h2>Instructor 1</h2>
+                    <p>Much information so useful</p>
+                </section>
+                
+                <section class="InstructorBox">
+                    <img src="http://lorempixel.com/250/250" alt="">
+                    <h2>Instructor 2</h2>
+                    <p>Much information so useful</p>
+                </section>
+            </div>
+        </div>
+    </article>
+
+</body>
+
+</html>
